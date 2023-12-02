@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.hoca {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+}
+
+.suabien{
+    position: absolute;
+    top: 0px;
+    right: 60%;
+}
+
+.suabien{
+    animation-name: suamove;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: scaleX(1);
+}
+@keyframes suamove
+{
+    0%
+    {
+        top: 0;
+        bottom: 200px;
+    }
+    50%
+    {
+        top: 100px;
+        bottom: 200px;
+    }
+    70%
+    {
+        top: 200px;
+        bottom: 300px;
+    }
+    90%
+    {
+        top: 300px;
+        bottom: 400px;
+    }
+    100%
+    {
+        top:    0px;
+        bottom: 200px;
+    }
+}
+
+.cangua{
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+}
+
+.cangua{
+    animation-name: canguamove;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: scaleX(1);
+}
+@keyframes canguamove
+{
+    0%
+    {
+        top: 300px;
+        bottom: 0px;
+    }
+    50%
+    {
+        top: 400px;
+        bottom: 100px;
+    }
+    70%
+    {
+        top: 200px;
+        bottom: 200px;
+    }
+    90%
+    {
+        top: 500px;
+        bottom: 300px;
+    }
+    100%
+    {
+        top: 200px;
+        bottom: 700px;
+    }
+}
+
+.saobien
+{
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+
+.ruabien{
+    position: absolute;
+    top: 10px;
+    left: 100%;
+}
+
+.ruabien{
+    animation-name: ruamove;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: scaleX(-1);
+}
+@keyframes ruamove
+{
+    0%
+    {
+        left: 100px;
+        right: 200px;
+    }
+    50%
+    {
+        left: 350px;
+        right: 500px;
+    }
+    70%
+    {
+        top: 250px;
+        bottom: 400px;
+    }
+    90%
+    {
+        left: 450px;
+        right: 700px;
+    }
+    100%
+    {
+        left: 500px;
+        right: 1024px;
+    }
+}
+.conca{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+.conca{
+    animation-name: camove;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform: scaleX(1);
+}
+@keyframes camove
+{
+    0%
+    {
+        left: 100px;
+       bottom: 50px;
+    }
+    20%
+    {
+        left: 350px;
+       bottom: 300px;
+    }
+    40%
+    {
+        left:950px;
+        bottom: 100px;
+    }
+    60%
+    {
+        left: 400px;
+        bottom: 300px;
+    }
+    100%
+    {
+        left: 200px;
+        bottom: 50px;
+    }
+}
